@@ -8,7 +8,6 @@ export default async function ProductDetails({params}: {params:Promise<{productI
           Details about product {productId}   
       </h2>
     </>
-  
   )
 }
 
