@@ -1,17 +1,13 @@
 
 
-const layout = ({childern}:{
-    childern: React.ReactNode   
-}) => {
+
+export default function layout({children}: {children: React.ReactNode}) {       
   return (
     <>
-      {childern}
-      <p style={{background:"salmon",color:"white",padding:'1rem'}}>Featured product</p>
+        <h1 style={{color: 'lightblue'}}>     
+            Product Details   
+        </h1>
+        {children}           
     </>
   )
 }
-
-export default layout
-
-
-
