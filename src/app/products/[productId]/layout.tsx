@@ -6,7 +6,7 @@ const layout = ({childern}:{
   return (
     <>
       {childern}
-      <p style={{background:"salmon",color:'yellowgreen'}}>Featured product</p>
+      <p style={{background:"salmon",color:"white",padding:'1rem'}}>Featured product</p>
     </>
   )
 }
