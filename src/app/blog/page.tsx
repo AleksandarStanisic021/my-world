@@ -1,4 +1,5 @@
 
+export const metadata = { title: 'blog data' } 
 
 export default function Blog() {
   return (

@@ -1,3 +1,4 @@
+export const metadata = { title: 'blog - second' } 
 
 export default function Second() {
     return (

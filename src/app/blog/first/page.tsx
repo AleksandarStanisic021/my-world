@@ -1,4 +1,5 @@
 
+export const metadata = { title: 'blog - first' } 
 export default function First() {
   return (
     <h2>
