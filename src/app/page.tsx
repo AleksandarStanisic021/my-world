@@ -5,9 +5,15 @@ export default function Home() {
   return (
     <>
       <h1>WELCOME HOME</h1>
-        <p>About</p>
-        <Link href="/blog">Blog</Link> 
-        <Link href="/products">Products</Link>
+        <p>About Home</p>
+        <ul style={{listStyleType:"none"}}> 
+          <li>
+          <Link href="/blog">Blog</Link> 
+          </li>
+          <li>
+          <Link href="/products">Products</Link> 
+          </li>
+        </ul>
     </>
   )
 }
