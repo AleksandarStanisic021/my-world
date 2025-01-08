@@ -14,6 +14,8 @@ export default function Home() {
           <Link href="/products">Products</Link> 
           </li>
         </ul>
+        <Link href='/articles/news123?lang=en'>Read english</Link>
+        <Link href='/articles/news123?lang=fr'>Read france</Link>
     </>
   )
 }
