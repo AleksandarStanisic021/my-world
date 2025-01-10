@@ -16,7 +16,7 @@ export default function ErrorBoundary({error,reset}: {error: Error, reset: () =>
     }
   return (
     <div>
-        {error.message=("This is an  layout, try to refresh the page")}    
+        {error.message=("This is an  layout error, try to refresh the page")}    
         <button onClick={()=>reload()}>try to fix</button>
     </div>
   )
