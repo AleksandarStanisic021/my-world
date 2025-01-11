@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 
 export default function ComplexLayout({children,analytics}:
      {children: React.ReactNode,
@@ -7,9 +7,7 @@ export default function ComplexLayout({children,analytics}:
     )
 {   
   let isLoad=true;
-  setTimeout(() => {
-    isLoad=true;
-  }, 3000); 
+ 
   return (
     <div>
       {isLoad?<div>{children}<div>{analytics}</div></div> 
