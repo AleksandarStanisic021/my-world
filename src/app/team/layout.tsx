@@ -11,7 +11,7 @@ export default function ComplexLayout({children,analytics}:
   return (
     <div>
       {isLoad?<div>{children}<div>{analytics}</div></div> 
-      : <div>Loading...</div>}
+      : <div style={{color:'red'}}>Loading...</div>}
     </div>
   ) 
 }
