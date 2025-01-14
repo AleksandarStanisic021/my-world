@@ -1,10 +1,5 @@
-export const metadata = { title: 'blog - second' } 
+export const metadata = { title: "blog - second" };
 
 export default function Second() {
-    return (
-      <h2>
-        Second blog post   
-      </h2>
-    )
-  }
-  
+  return <h2>Second blog post</h2>;
+}

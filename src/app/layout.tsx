@@ -1,32 +1,29 @@
-import { Metadata } from "next"
+import { Metadata } from "next";
 
-
-export const metadata: Metadata = { 
+export const metadata: Metadata = {
   title: {
-    template: "%s ~ My World",  
-    default: "My World",  
-    absolute: ""
-  } ,
- } // Page title
+    template: "%s ~ My World",
+    default: "My World",
+    absolute: "",
+  },
+}; // Page title
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      
       <body>
-      <header style={{background:"lightblue", padding:'1rem'}}>
-        <p>header</p>
-      </header> 
+        <header style={{ background: "lightblue", padding: "1rem" }}>
+          <p>header</p>
+        </header>
         {children}
-        <footer style={{background:"ghostwhite", padding:'1rem'}}>
+        <footer style={{ background: "ghostwhite", padding: "1rem" }}>
           <p>footer</p>
-        </footer> 
-        </body>
-   
+        </footer>
+      </body>
     </html>
-  )
+  );
 }
