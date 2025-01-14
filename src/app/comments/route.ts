@@ -6,8 +6,7 @@ export async function GET()
     return Response.json(comments);  
 }
 
-
-export async function POST(request: Request)    
+export async function POST(request: Request)
 {
     const comment = await request.json();
 
@@ -20,4 +19,4 @@ export async function POST(request: Request)
         headers: { 'content-type': 'application/json' } ,
         status: 201 
     });   
-}
+}   
